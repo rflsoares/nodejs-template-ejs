@@ -5,19 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Includes EJS</title>
-</head>
   <style>
-    .menu-item{
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .content {
+      margin-left: 50px;
+    }
+
+    h3 {
+      margin: 10px 0 10px 0;
+      text-align: center;
+    }
+
+    nav,
+    footer {
+      height: 70px;
+      background-color: rgba(177, 120, 231, 0.644);
+    }
+
+    .menu-item {
       display: inline;
-      margin: 0 10px 0 10px;
+      margin: 10px 10px 10px 10px;
     }
   </style>
+</head>
 
-  <body>
-    <nav>
-      <ul>
-        <li class="menu-item">MENU 1</li>
-        <li class="menu-item">MENU 2</li>
-        <li class="menu-item">MENU 3</li>
-      </ul>  
-    </nav>  
+<body>
+  <nav>
+    <ul>
+      <li class="menu-item">MENU 1</li>
+      <li class="menu-item">MENU 2</li>
+      <li class="menu-item">MENU 3</li>
+    </ul>
+  </nav>

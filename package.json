@@ -1,13 +1,9 @@
 {
-  "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "nodemon": "^3.0.2"
-  },
-  "name": "utilizando-template-engine-ejs-com-node",
-  "type": "module",
+  "name": "nodejs-template-ejs",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -15,5 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
 }
